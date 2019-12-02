@@ -1,7 +1,7 @@
 # Squirrel_Tracker
 This is a semester project dedicated for IEOR 4501 Tools for Analytics. Our team, in this project, made use of Django framework to build a web application for squirrels tracking around Central Park in NYC.
 
-Key features/ of this project is listed below:
+Key features/functions of this project is listed below:
 
 1. A view that shows a map that displays the location of the squirrel sightings on an openstreets map
 
