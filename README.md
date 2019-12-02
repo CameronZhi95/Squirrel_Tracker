@@ -1,11 +1,12 @@
 # Squirrel Tracker
 
 # What is it?
-This is a semester project dedicated for IEOR 4501 Tools for Analytics. Our team, in this project, made use of Django framework to build a web application for squirrels tracking around Central Park in NYC.
+
+Squirrel Tracker is a web application which provides the users with the visualized sightings of squirrels found around Central Park at Manhattan, NYC. The web applicaiton, based upon Django framework, can import squirrel data and allows users to add, update and delete data.
 
 # Data Source
 
-
+2018 Central Park Squirrel Census
 
 # Key Features 
 
@@ -15,23 +16,31 @@ Management Commands + Views
 
 Import: A command that can be used to import the data from the 2018 census file (in CSV format). The file path should be specified at the command line after the name of the management command.
 
-python manage.py import_squirrel_data /path/to/file.csv
+    python manage.py import_squirrel_data /path/to/file.csv
 
 Export: A command that can be used to export the data in CSV format. The file path should be specified at the command line after the name of the management command.
 
-python manage.py export_squirrel_data /path/to/file.csv
+    python manage.py export_squirrel_data /path/to/file.csv
 
 # Views
 
-1. A view that shows a map that displays the location of the squirrel sightings on an openstreets map
+1. A view that shows a map that displays the location of the squirrel sightings on an OpenStreets map
 
 2. A view that lists all squirrel sightings with links to edit and add sightings
 
-3. A view to update, create and delete a sighting
+3. A view to update a particular sighting
 
-4. A view with general statistics about the sightings
+4. A view to create a new sighting
+
+5. A view to delete a sighting
+
+6. A view with general statistics about the sightings
 
 # Dependencies
+
+
+    Django
+    django-leaflet
 
 
 # Documentation
@@ -50,7 +59,7 @@ Most development discussion is taking place on github in this repo.
 
 # Contributing to Squirrel Tracker
 
-Any contributions, bug reports, bug fixes, documentation improvements, enhancements to make this project better are warmly welcomed.
+This is a semester project dedicated for IEOR 4501 Tools for Analytics. Any contributions, bug reports, bug fixes, documentation improvements, enhancements to make this project better are warmly welcomed.
 
 # Contributors
 
