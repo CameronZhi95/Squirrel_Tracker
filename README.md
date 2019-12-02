@@ -26,21 +26,48 @@ Export: A command that can be used to export the data in CSV format. The file pa
 
 1. A view that shows a map that displays the location of the squirrel sightings on an OpenStreets map
 
+        Located at: /map
+
+        Method: GET
+
+        Will use the leafetjs library for plotting
+
 2. A view that lists all squirrel sightings with links to edit and add sightings
+
+        Located at: /sightings
+
+        Method: GET
 
 3. A view to update a particular sighting
 
+        Located at: /sightings/
+        
+        Method: POST
+
 4. A view to create a new sighting
+
+        Located at: /sightings/add
+
+        Method: POST
 
 5. A view to delete a sighting
 
+        Located at: /sightings/
+        
+        Method: DELETE
+
 6. A view with general statistics about the sightings
+
+        Located at: /sightings/stats
+        
+        Method: GET
 
 # Dependencies
 
 
-    Django
-    django-leaflet
+Django
+
+django-leaflet
 
 
 # Documentation
