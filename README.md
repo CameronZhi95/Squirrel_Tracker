@@ -1,7 +1,27 @@
 # Squirrel Tracker
+
+# What is it?
 This is a semester project dedicated for IEOR 4501 Tools for Analytics. Our team, in this project, made use of Django framework to build a web application for squirrels tracking around Central Park in NYC.
 
-Key features/functions of this project is listed below:
+# Data Source
+
+
+
+# Key Features 
+
+Management Commands + Views
+
+# Management Commands
+
+Import: A command that can be used to import the data from the 2018 census file (in CSV format). The file path should be specified at the command line after the name of the management command.
+
+python manage.py import_squirrel_data /path/to/file.csv
+
+Export: A command that can be used to export the data in CSV format. The file path should be specified at the command line after the name of the management command.
+
+python manage.py export_squirrel_data /path/to/file.csv
+
+# Views
 
 1. A view that shows a map that displays the location of the squirrel sightings on an openstreets map
 
@@ -10,6 +30,13 @@ Key features/functions of this project is listed below:
 3. A view to update, create and delete a sighting
 
 4. A view with general statistics about the sightings
+
+# Dependencies
+
+
+# Documentation
+
+The official description for this project is Squirrel Tracker.
 
 # Background
 
