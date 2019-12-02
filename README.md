@@ -11,6 +11,12 @@ Key features/functions of this project is listed below:
 
 4. A view with general statistics about the sightings
 
-The grourp name is Ninja Turtles. The section number is 02.
+# Contributors
 
-Teammember: UNIs: [jz3161, zz2695]
+Group Name: Ninja Turtles
+
+Section Number: 02
+
+Group Member: Jiahao Zhi, Zhenhao Zhang
+
+UNIs: [jz3161, zz2695]
